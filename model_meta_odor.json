@@ -1,0 +1,19 @@
+{
+  "input_dim": 86,
+  "output_dim": 12,
+  "y_cols": [
+    "Fragrant",
+    "Woody",
+    "Fruity",
+    "Citrus",
+    "Sweet",
+    "Floral",
+    "Spicy",
+    "Minty",
+    "Green",
+    "Earthy",
+    "Vanilla",
+    "Almond"
+  ],
+  "feature_dim": 86
+}

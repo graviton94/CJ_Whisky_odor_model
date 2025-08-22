@@ -1,0 +1,14 @@
+{
+  "input_dim": 61,
+  "output_dim": 7,
+  "y_cols": [
+    "Taste_Bitter",
+    "Taste_Floral",
+    "Taste_Fruity",
+    "Taste_OffFlavor",
+    "Taste_Nutty",
+    "Taste_Sour",
+    "Taste_Sweet"
+  ],
+  "feature_dim": 61
+}

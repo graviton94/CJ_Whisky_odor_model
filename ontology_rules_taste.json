@@ -1,0 +1,42 @@
+{
+  "synergy": {
+    "taste": {
+      "Taste_Fruity": {
+        "Taste_Sweet": 0.15
+      },
+      "Taste_Floral": {
+        "Taste_Sweet": 0.08
+      }
+    }
+  },
+  "masking": {
+    "taste": {
+      "Taste_Bitter": {
+        "Taste_Sweet": -0.2
+      },
+      "Taste_Sour": {
+        "Taste_Sweet": -0.15
+      }
+    }
+  },
+  "functional": {
+    "taste": {
+      "carboxylic_acid": {
+        "target": "Taste_Sour",
+        "weight": 0.18,
+        "groups": [
+          "CarboxylicAcid"
+        ]
+      }
+    }
+  },
+  "derived": {
+    "taste": {
+      "HBD_HBA_ratio": {
+        "target": "Taste_OffFlavor",
+        "weight": -0.1,
+        "threshold": 0.5
+      }
+    }
+  }
+}

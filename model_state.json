@@ -1,0 +1,12 @@
+{
+  "model_version": {
+    "odor": 29,
+    "taste": 29
+  },
+  "last_training": {
+    "odor": "2025-08-19T17:26:12.739570",
+    "taste": "2025-08-19T17:26:24.653427"
+  },
+  "performance_history": [],
+  "timestamp": "2025-08-19T17:26:24.653541"
+}

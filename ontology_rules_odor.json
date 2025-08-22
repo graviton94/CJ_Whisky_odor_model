@@ -1,0 +1,69 @@
+{
+  "synergy": {
+    "odor": {
+      "Fruity": {
+        "Sweet": 0.15,
+        "Floral": 0.1
+      },
+      "Vanilla": {
+        "Almond": 0.1
+      },
+      "Citrus": {
+        "Fruity": 0.12
+      },
+      "Woody": {
+        "Earthy": 0.08
+      }
+    }
+  },
+  "masking": {
+    "odor": {
+      "Woody": {
+        "Floral": -0.12,
+        "Citrus": -0.08
+      },
+      "Earthy": {
+        "Sweet": -0.1
+      },
+      "Spicy": {
+        "Fruity": -0.15
+      }
+    }
+  },
+  "functional": {
+    "odor": {
+      "ester_alcohol": {
+        "target": "Fruity",
+        "weight": 0.15,
+        "groups": [
+          "Ester",
+          "Alcohol"
+        ]
+      },
+      "aldehyde": {
+        "target": "Sweet",
+        "weight": 0.12,
+        "groups": [
+          "Aldehyde"
+        ]
+      },
+      "ketone_ether": {
+        "target": "Woody",
+        "weight": 0.1,
+        "groups": [
+          "Ketone",
+          "Ether"
+        ]
+      }
+    }
+  },
+  "derived": {
+    "odor": {
+      "MWxLogP": {
+        "target": "Sweet",
+        "weight": 0.01,
+        "threshold": 100.0
+      }
+    }
+  }
+}
